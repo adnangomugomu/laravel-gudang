@@ -7,7 +7,8 @@ Ini merupakan projek laravel pertama saya untuk belajar
 jalankan projek dengan perintah docker-compose, pastikan port 80 dan 3306 tidak digunakan oleh aplikasi lainnya.
 
 ```bash
-  docker-compose up --build -d
+    cd laravel-gudang
+    docker-compose up --build -d
 ```
 
 Tunggu sampai proses pembuatan container selesai dengan mengakses
