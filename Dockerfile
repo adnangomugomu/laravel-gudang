@@ -12,11 +12,11 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 RUN chown -R www-data:www-data /var/www/html
-
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 RUN apt update && apt install -y netcat-traditional
 
 RUN a2enmod rewrite
-
 RUN chmod +x /var/www/html/entrypoint.sh
+RUN composer install
 
 CMD ["/var/www/html/entrypoint.sh"]

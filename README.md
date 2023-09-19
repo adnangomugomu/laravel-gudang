@@ -16,7 +16,7 @@ Tunggu sampai proses pembuatan container selesai dengan mengakses
     http://localhost
 ```
 
-Jika sudah berjalan maka lakukan perintah seeding database
+Jika sudah berjalan maka lakukan perintah seeding database (saat pertama kali saja) *opsional jika diperlukan
 
 ```bash
     docker exec -it my_php8 php artisan db:seed
