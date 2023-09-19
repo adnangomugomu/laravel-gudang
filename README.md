@@ -4,7 +4,12 @@ Ini merupakan projek laravel pertama saya untuk belajar
 
 ## Installation
 
-jalankan projek dengan perintah docker-compose, pastikan port 80 dan 3306 tidak digunakan oleh aplikasi lainnya.
+Penting ! (karena defaultnya nanti akan menjadi mode production)
+```bash
+    Ubah file .env.example menjadi .env
+```
+
+Jalankan projek dengan perintah docker-compose, pastikan port 80 dan 3306 tidak digunakan oleh aplikasi lainnya.
 
 ```bash
     cd laravel-gudang
