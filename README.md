@@ -6,7 +6,7 @@ Ini merupakan projek laravel pertama saya untuk belajar
 
 Penting ! (karena defaultnya nanti akan menjadi mode production)
 ```bash
-    Ubah file .env.example menjadi .env
+    Duplicate file .env.example menjadi .env
 ```
 
 Jalankan projek dengan perintah docker-compose, pastikan port 80 dan 3306 tidak digunakan oleh aplikasi lainnya.
