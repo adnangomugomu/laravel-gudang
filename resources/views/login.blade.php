@@ -108,7 +108,7 @@
                     Swal.fire({
                         icon: 'warning',
                         title: 'Gagal',
-                        text: res.responseJSON.msg,
+                        text: res.responseJSON.msg ?? res.responseJSON.message,
                         showConfirmButton: true,
                     })
                 },
